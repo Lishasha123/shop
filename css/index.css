@@ -1,0 +1,281 @@
+body{
+	margin: 0px;
+	font-size: 14px;
+	font-family: "宋体";
+	background-color: #fff;
+}
+
+a{
+	text-decoration: none;
+	color: #666;
+}
+a:hover{
+	color: #FF7700;
+}
+dl,dt,dd,p,ul,input{
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+	list-style: none;
+}
+.w{
+	width: 1190px;
+	margin: 0px auto;
+}
+.clear:after{
+	content: "";
+	height: 0px;
+	clear: both;
+	display: block;
+}
+.top{
+	background-color: #f2f2f2;
+}
+.top-1{
+	margin: 0px auto;
+	width: 1190px;
+	height: 16px;
+	line-height: 16px;
+	padding: 12px 0px;
+}
+.topleft{
+	float: left;
+}
+.topleft span{
+	float: left;
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	margin: 0px 8px;
+	color: #666;
+}
+.weibo{
+	float: left;	
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background:url(../images/ico/whole.png) no-repeat 0px 0px;	
+	margin-right:5px;
+}
+.wei{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/ico/whole.png) no-repeat -42px 0px;
+	margin-right:5px;
+}
+.weixin{
+	float: left;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background:url(../images/ico/whole.png) no-repeat -21px 0px;
+	margin-right: 8px;
+}
+/*.topleft .down{
+	float: left;
+	display: inline-block;
+	width: 7px;
+	height: 4px;
+	background:url(../images/ico/whole.png) no-repeat -142px 0px;
+	
+}*/
+.topright{
+	float: right;
+ }
+ .topright a{
+ 	float: left;
+ 	margin-right: 10px;
+ }
+ .tu1{
+ 	float: left;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background:url(../images/ico/whole.png) no-repeat -64px 0px;
+	margin-right: 8px;
+ }
+  .tu2{
+ 	float: left;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background:url(../images/ico/whole.png) no-repeat -84px 0px;
+	margin-right: 8px;
+ }
+  .tu3{
+ 	float: left;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background:url(../images/ico/whole.png) no-repeat -107px 0px;
+	margin-right: 8px;
+ }
+  .tu3{
+ 	float: left;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background:url(../images/ico/whole.png) no-repeat -127px 0px;
+	margin-right: 8px;
+ }
+/*开始*/
+.toptu a{ 
+	display:block; 
+	background:url(../images/add/topadd.jpg) no-repeat center top; 
+	height:70px;
+}
+/*开始*/
+.header{
+	width: 1190px;
+	margin: 0px auto;
+	height: 120px;
+}
+.login{
+	float: left;
+	padding: 22px 0px;
+}
+.login a img{
+	width: 200px;
+	height: 76px;
+	vertical-align: middle;
+}
+.search{
+	float: left;
+	margin-top: 30px;
+	margin-left: 160px;	
+}
+
+.inputleft input:last-child{
+	float: left;
+	height: 44px;
+	width: 96px;
+	outline: none;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	background-color:#FF7700 ;
+}
+.inputleft input:first-child{
+	float: left;
+	width: 400px;
+	height: 40px;
+	outline: none;
+	color: #666666;
+	padding-left: 10px;
+	border: solid 2px #FF7700;	
+}
+.loginright{
+	float: right;
+	width: 180px;
+	height: 46px;
+	margin-top: 30px;
+	background-color: #1d7ad9;
+	padding-left: 24px;
+}
+.car{
+	float: left;
+	width: 25px;
+	height: 25px;
+	background: url(../images/ico/whole.png) no-repeat -185px 0;
+	margin-top: 12px;
+	margin-right: 7px;
+}
+.loginright span{
+	float: left;
+	font-size: 16px;
+	line-height: 46px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.loginright .span1{
+	padding-right: 20px;
+	border-right:1px solid #0052A6
+}
+.loginright .span2{
+	border-left:1px solid #0052A5;
+	padding-left: 30px;
+}
+.text{
+	margin-top: 5px;
+}
+.text a{
+	font-size: 12px;
+	margin-right: 10px;
+}
+.text a span{
+	color: #FF7700;
+}
+/*开始*/
+.nav{
+	width: 1190px;
+	height: 46px;
+	margin: 0px auto;
+	
+}
+.nav dl a{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.nav dl dt{
+	float: left;
+	width: 200px;
+	text-align: center;
+	line-height: 46px;
+	background-color: #1D7AD9;
+}
+.nav dl dd{
+	float: left;
+	padding: 0px 36px;
+	line-height: 46px;
+	background-color: #FF7700;
+	
+}
+.nav .first{
+	background-color: #f15500;
+}
+/*开始*/
+.banner .bannerleft{
+	float: left;
+	width: 200px;
+	border: solid 2px #1D7AD9;
+	padding: 14px;
+	box-sizing: border-box;
+}
+.bannerleft li{
+	padding-top: 10px;
+	border-bottom:solid 1px #dddddd;
+}
+.text1 a{
+	color: #4d8fde;
+}
+.text1 strong{
+	
+}
+.text2{
+	margin: 10px 0px;
+}
+.text2 a{
+	font-size: 12px;
+	margin-right: 12px;
+	line-height: 16px;
+}
+.bannerover{
+	float: left;
+	padding: 0px 12px;
+}
+.bannerover .banner1{
+	position: relative;
+}
+.banner1 a{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.bannerover a img{
+	width: 758px;
+	height: 326px;
+}
