@@ -1,0 +1,339 @@
+.banner{
+	position: relative;
+}
+.bannerimg{
+   margin-top: 12px;	
+	
+}
+.bannerimg div{
+	width: 100%px;
+	height: 420px;
+}
+.tipspan{
+	position: absolute;
+	left: 50%;
+	bottom: 15px;
+}
+.tipspan span{	
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 15px;
+	border-radius: 50%;
+	background-color:#ffffff;	
+}
+.tipspan span.active{
+	background-color: #ff7700;
+}
+.banner1{
+	position: absolute;
+	top: 3px;
+	left:50%;
+	margin-left: -595px;
+}
+.bannerleft{
+	float: left;
+	padding: 10px 12px;
+	width: 176px;
+	background-color: #1d7ad9;
+}
+.bannerleft li{
+	padding: 13px 0px;
+	width: 176px;
+	border-bottom: solid 1px #dddddd;
+}
+.bannerleft li a{
+	color: #ffffff;
+}
+.text1 a{
+	line-height: 28px;
+	font-size: 16px;
+}
+.text2 a{
+	line-height: 22px;
+	font-size: 12px;
+	margin-right: 12px;
+}
+.images{
+	float: right;
+}
+.images dl{
+	width: 190px;
+	height: 205px;
+	padding: 8px 16px;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #ffffff;
+}
+.images dl dt img{
+	width: 162px;
+	height: 160px;
+	
+}
+.images dl dd a{
+	font-size: 12px;
+	line-height: 24px;
+}
+.images dl:first-child{
+	margin-bottom: 4px;
+}
+/*快点抢*/
+.box{
+
+}
+.top1{
+	margin: 14px 0px;
+}
+.top1 strong{
+	float:left; 
+	background:url(../images/ico/whole.png) no-repeat -167px -235px;
+	width:22px; 
+	height:24px;
+	margin-right:10px;
+}
+.top1 span{
+	float: left;
+	line-height: 24px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 16px;
+	color: #be344a;
+}
+.top-2{
+	overflow: hidden;
+	height: 350px;
+	position: relative;
+}
+.zuo{
+	 background:url(../images/ico/whole.png) no-repeat 0 -111px;
+	 width:60px;
+	 height:60px;
+	 position:absolute; 
+	 left:9px; 
+	 top:145px;
+	 z-index:60;
+	 cursor:pointer; 
+	 display: none;
+}
+.you{ 
+	background:url(../images/ico/whole.png) no-repeat -65px -111px; 
+	width:60px;
+	height:60px;
+	position:absolute;
+	right:9px; 
+    top:145px;
+	cursor:pointer;
+	z-index:60;
+	display: none;
+}
+
+.top2{
+	width: 2380px;
+	height: 350px;
+	line-height: 22px;
+	position: absolute;
+	left: 0px;
+	top: 0px;	
+}
+.top2 li{
+	float: left;
+}
+.top2 li dl{
+	float: left;
+	width: 222px;
+	height: 350px;
+	padding: 18px 10px;
+	box-sizing: border-box;
+	font-size: 12px;
+	margin-right: 20px;
+	border: solid 1px #dddddd;
+}
+.top2 li dl dt img{
+	width: 200px;
+	height: 200px;
+}
+.top2  dl:nth-child(5){
+	margin-right: 0px;
+}
+.price{
+	color: #999999;
+}
+.price strong{
+	color: #ff7700;
+}
+.price span{
+	text-decoration: line-through;
+}
+.time{
+	padding:4px 0 4px 15px;
+	background-color: #f9f9f9;
+}
+.time strong{
+   float:left;
+   background:url(../images/ico/whole.png) no-repeat -134px -236px;
+   width:22px; 
+   height:22px; 
+   display:inline; 
+   margin-right:10px;	
+}
+.time span{
+	color: #999999;
+}
+.time span i{
+	color: #ff7700;
+}
+.going{
+	margin-top: 10px;
+	width: 200px;
+	height: 32px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #b71d36;
+}
+.going a{
+	color: #ffffff;
+	line-height: 32px;
+}
+/*公司福利*/
+.top3{
+	margin-top: 20px;
+}
+.left1{
+  float:left; 
+  width:172px;
+  margin-right:1px;
+ }
+.blue .left1{ 
+	background-color:#1D7AD9;
+	 height:440px;
+}
+.yellow .left1{
+	background-color: #f70;
+	height:440px;
+}
+.red .left1{
+	background-color:#F5619C; 
+	height:440px;
+}
+.title{
+	 float:left;
+	 width:18px;
+	 height:440px;
+	 padding:110px 13px 0 13px;
+	 font-family:"微软雅黑";
+	 font-size:18px; 
+	 color:#fff;
+}
+.blue .title{
+	background:url(../images/ico/whole.png) no-repeat -302px 0;
+}
+.yellow .title{
+	background:url(../images/ico/whole.png) no-repeat -355px 0;
+}
+.red .title{
+	background:url(../images/ico/whole.png) no-repeat -409px 0;
+}
+.left-1{
+	float: right;
+	width:116px;
+	height:440px;
+}
+.shang{
+	background:url(../images/ico/whole.png) no-repeat -203px -241px; 
+	width:21px; 
+	height:10px; 
+	margin:20px 0 0 48px; 
+	cursor:pointer;
+}
+.xia{
+ background:url(../images/ico/whole.png) no-repeat -233px -241px;
+ width:21px; 
+ height:10px; 
+ margin:5px 0 0 48px; 
+ cursor:pointer;	
+}
+.left-2{
+	margin-top: 15px;
+	height: 360px;
+	overflow: hidden;
+	position: relative;
+}
+.list{
+	position: absolute;
+	height: 3000px;
+}
+.list li{
+	width: 116px;
+	height: 26px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.list li a{
+	color:#fff;
+	font-family:"微软雅黑";
+	font-size:14px; 
+	height: 26px;
+	line-height: 26px;	  
+}
+.blue .list li.active a{
+	color: #1D7AD9;
+}
+.yellow .list li.active a{
+	color:#f70;
+}
+.red .list li.active a{
+	color:#F5619C;
+}
+.list li.active{
+	background:url(../images/ico/whole.png) no-repeat 0 -235px;
+}
+.left2{
+	float: left;
+}
+.right1{
+	float: right;
+	width: 564px;
+	height: 440px;
+	border-bottom:solid 1px #dddddd;
+	border-right:solid 1px #dddddd;
+}
+.right1 li{
+	float: left;
+	width: 188px;
+	height: 220px;
+	box-sizing: border-box;
+	padding: 15px 18px;
+	border-top:solid 1px #dddddd;
+	border-left:solid 1px #dddddd;
+}
+.right1 li dl dt img{
+	width: 150px;
+	height: 150px;
+}
+.right1 li dl dd{
+	font-size: 12px;
+}
+.right1 li dd a{
+	line-height: 22px;
+}
+.right1 li dd strong{
+	color: #ff7700;
+	line-height: 22px;
+}
+/*展示6个产品*/
+.top4{
+  margin-top: 20px;	
+}
+.top4 dl{
+	float: left;
+	width: 198px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.top4 dl dt img{
+	width: 166px;
+	height: 166px;
+}
+.top4 dl dt dd strong{
+	color: #ff7700;
+}
