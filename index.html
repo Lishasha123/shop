@@ -2,7 +2,9 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title></title>
+		<link rel="stylesheet" href="css/whole.css" />
 		<link rel="stylesheet" href="css/index.css" />
 		<link rel="stylesheet" href="css/normalize.css" />
 	</head>
@@ -43,7 +45,7 @@
 				<dt><a href="#">全部商品分类</a></dt>
 				<dd class="first"><a href="index.html">首页</a></dd>
 				<dd><a href="#">个人福利</a></dd>
-				<dd><a href="#">家庭福利</a></dd>
+				<dd><a href="family.html">家庭福利</a></dd>
 				<dd><a href="gongsi.html">公司福利</a></dd>
 				<dd><a href="#">兑换专区</a></dd>
 				<dd><a href="#">特价专卖</a></dd>
@@ -939,8 +941,14 @@
 <div class="bottom">
 	<p><a href="#">关于赞礼</a> | <a href="#">产品中心</a> | <a href="#">帮助中心</a> | <a href="#">联系我们</a></p>
     <P>上海市宝山区蕴川路512号红石商务大厦5层C座 沪ICP备14025299号 版权所有©赞礼电子商务有限公司</P>
-</div>	
-	
+</div>
+<!--侧边-->
+<ul class="side">
+	<li class="backtop"><a href="javascript:;"><strong></strong><span>返回顶部</span></a></li>
+	<li class="gocar"><a href="#"><strong></strong><span>进购物车</span></a></li>
+	<li class="help"><a href="#"><strong></strong><span>帮助中心</span></a></li>
+	<li class="contact"><a href="#"><strong></strong><span>联系客服</span></a></li>
+</ul>	
 	
 	
 
@@ -1025,7 +1033,15 @@
 	    	$(".hot3 .hot-1 ul").hide();
 	    	$(this).parents(".hot3 .hot-1").find("ul").show();
 	    });
-		
+		//侧边
+		$(".side li").each(function(){
+			$(this).find("a span").hide();
+			$(this).mouseover(function(){
+				$(this).find("a span").show().siblings("strong").hide();
+			}).mouseout(function(){
+				$(this).find("a span").hide().siblings("strong").show();
+			})
+		})
 		
 		</script>
 	</body>

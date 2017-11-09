@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title></title>
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/whole.css" />
@@ -44,7 +45,7 @@
 				<dt><a href="#">全部商品分类</a></dt>
 				<dd ><a href="index.html">首页</a></dd>
 				<dd><a href="#">个人福利</a></dd>
-				<dd><a href="#">家庭福利</a></dd>
+				<dd><a href="family.html">家庭福利</a></dd>
 				<dd class="first"><a href="gongsi.html">公司福利</a></dd>
 				<dd><a href="#">兑换专区</a></dd>
 				<dd><a href="#">特价专卖</a></dd>
@@ -59,6 +60,7 @@
 		    </div>
 		    <div class="tipspan"><span></span><span></span><span></span></div>
 		    
+		    <div class="banners clear">
 		    <div class="banner1 w clear">
 		    	<ul class="bannerleft ">
 					<li>
@@ -89,6 +91,7 @@
           </dl>
           </div>
 	</div>
+ </div>
 </div>
 <!--快点抢-->		
 
@@ -625,25 +628,15 @@
 		   })
 		   var heights=$(".blue .left-2").height();
 		   var num=$(".blue .list li").length;
-		   var page=1;
+		   var page=0;
 		   var pagemax=Math.ceil(num/10);
 		   $(".blue .shang").click(function(){
-		   	if(page==1){
-		   		$(".blue .list").css("top",heights*(pagemax-1)*-1+"px");
-		   		page=pagemax;
-		   	}else{
-		   		$(".blue .list").css("top","+="+heights+"px");
-		   		page--;
-		   	}
+		       page=(page-1+pagemax)%pagemax;
+		       $(".blue .list").animate({top:-1*heights*page+"px"},300);
 		   	});
 		    $(".blue .xia").click(function(){
-		   	if(page==pagemax){
-		   		$(".blue .list").css("top","0px");
-		   		page=1;
-		   	}else{
-		   		$(".blue .list").css("top","-="+heights+"px");
-		   		page++;
-		   	}	 
+		   	  page=(page+1)%pagemax;
+		       $(".blue .list").animate({top:-1*heights*page+"px"},300);
 		   });
 		   //黄色
 		    $(".yellow .left2 a").hide().eq(0).show();
@@ -656,25 +649,15 @@
 		   })
 		   var heights=$(".yellow  .left-2").height();
 		   var num=$(".yellow  .list li").length;
-		   var page=1;
+		   var page=0;
 		   var pagemax=Math.ceil(num/10);
-		   $(".yellow  .shang").click(function(){
-		   	if(page==1){
-		   		$(".yellow  .list").css("top",heights*(pagemax-1)*-1+"px");
-		   		page=pagemax;
-		   	}else{
-		   		$(".yellow  .list").css("top","+="+heights+"px");
-		   		page--;
-		   	}
+		    $(".yellow .shang").click(function(){
+		       page=(page-1+pagemax)%pagemax;
+		       $(".yellow .list").animate({top:-1*heights*page+"px"},300);
 		   	});
-		    $(".yellow  .xia").click(function(){
-		   	if(page==pagemax){
-		   		$(".yellow  .list").css("top","0px");
-		   		page=1;
-		   	}else{
-		   		$(".yellow  .list").css("top","-="+heights+"px");
-		   		page++;
-		   	}	 
+		    $(".yellow .xia").click(function(){
+		   	  page=(page+1)%pagemax;
+		       $(".yellow .list").animate({top:-1*heights*page+"px"},300);
 		   });
 		   //红色
 		    $(".red .left2 a").hide().eq(0).show();
@@ -687,25 +670,15 @@
 		   })
 		   var heights=$(".red  .left-2").height();
 		   var num=$(".red  .list li").length;
-		   var page=1;
+		   var page=0;
 		   var pagemax=Math.ceil(num/10);
-		   $(".red .shang").click(function(){
-		   	if(page==1){
-		   		$(".red  .list").css("top",heights*(pagemax-1)*-1+"px");
-		   		page=pagemax;
-		   	}else{
-		   		$(".red  .list").css("top","+="+heights+"px");
-		   		page--;
-		   	}
+		    $(".red.shang").click(function(){
+		       page=(page-1+pagemax)%pagemax;
+		       $(".red .list").animate({top:-1*heights*page+"px"},300);
 		   	});
-		    $(".red  .xia").click(function(){
-		   	if(page==pagemax){
-		   		$(".red  .list").css("top","0px");
-		   		page=1;
-		   	}else{
-		   		$(".red  .list").css("top","-="+heights+"px");
-		   		page++;
-		   	}	 
+		    $(".red .xia").click(function(){
+		   	  page=(page+1)%pagemax;
+		       $(".red .list").animate({top:-1*heights*page+"px"},300);
 		   });
 		</script>
 	</body>
